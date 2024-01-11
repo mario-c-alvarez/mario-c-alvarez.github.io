@@ -208,7 +208,7 @@ window.digitalData = {
         "mobileAttribution": "",
         "feedback": ""
     },
-    "atenea": {
+    "moduloAutos": {
         "userInfo": {
             "userID": "", //eVar
             "isBuyer": "",
