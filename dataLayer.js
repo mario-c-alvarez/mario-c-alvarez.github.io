@@ -1,38 +1,38 @@
 window.digitalData = {
     "versionDL": "20230830_4.2",
     "application": {
-        "application": {
+            "application": {
             "name": "",
             "type": ""
-        },
-        "customFields": "",
-        "earnings": "",
-        "errorType": "",
-        "expenses": "",
-        "fulfillmentModel": "",
-        "globalApplication": "",
-        "interactionLevel": "",
-        "isQualifiedVisits": "",
-        "offer": "",
-        "operationNumber": "",
-        "process": "",
-        "programTypeHired": "",
-        "state": "",
-        "step": "",
-        "transactionID": "",
-        "typology": ""
+            },
+            "customFields": "",
+            "earnings": "",
+            "errorType": "",
+            "expenses": "",
+            "fulfillmentModel": "",
+            "globalApplication": "",
+            "interactionLevel": "",
+            "isQualifiedVisits": "",
+            "offer": "",
+            "operationNumber": "",
+            "process": "",
+            "programTypeHired": "",
+            "state": "",
+            "step": "",
+            "transactionID": "",
+            "typology": ""
     },
     "internalCampaign": {
-        "attributes": [],
-        "event": {
+            "attributes": [],
+            "event": {
             "eventInfo": {
-                "eventName": "",
-                "siteActionName": ""
+                    "eventName": "",
+                    "siteActionName": ""
             }
-        }
+            }
     },
     "optimization": {
-        "attributes": [{
+            "attributes": [{
             "idOptimization": "",
             "experience": "",
             "place": "",
@@ -52,46 +52,46 @@ window.digitalData = {
             "executor": "",
             "audience": ""
 
-        }],
-        "event": {
+            }],
+            "event": {
             "eventName": "",
             "optimizationEvent": ""
-        }
+            }
     },
     "page": {
-        "pageActivity": {
+            "pageActivity": {
             "loginType": "",
             "audio": {
-                "nameOfPodcastDisplayed": "",
-                "duration": "",
-                "id": "",
-                "player": "",
-                "quality": "",
-                "url": ""
+                    "nameOfPodcastDisplayed": "",
+                    "duration": "",
+                    "id": "",
+                    "player": "",
+                    "quality": "",
+                    "url": ""
             },
             "link": {
-                "aux1": "",
-                "aux2": "",
-                "aux3": "",
-                "ext": "",
-                "name": "",
-                "url": ""
+                    "aux1": "",
+                    "aux2": "",
+                    "aux3": "",
+                    "ext": "",
+                    "name": "",
+                    "url": ""
             },
             "search": {
-                "onSiteSearchEnterTerm": "",
-                "onSiteSearchResults": "",
-                "onSiteSearchTerm": ""
+                    "onSiteSearchEnterTerm": "",
+                    "onSiteSearchResults": "",
+                    "onSiteSearchTerm": ""
             },
             "video": {
-                "nameOfVideoDisplayed": "",
-                "duration": "",
-                "id": "",
-                "player": "",
-                "quality": "",
-                "url": ""
+                    "nameOfVideoDisplayed": "",
+                    "duration": "",
+                    "id": "",
+                    "player": "",
+                    "quality": "",
+                    "url": ""
             }
-        },
-        "pageInfo": {
+            },
+            "pageInfo": {
             "area": "publica",
             "businessUnit": "[Por definir]",
             "channel": "online",
@@ -116,40 +116,40 @@ window.digitalData = {
             "siteAppName": "[Por definir]",
             "sysEnv": "escritorio",
             "version": "[Versión del paquete de deployment]"
-        }
+            }
 
 
     },
     "pageInstanceID": "dev",
     "products": {
-        "attributes": [{
-            "primaryCategory": "",
+            "attributes": [{
+            "primaryCategory": "prestamos",
             "productSubtype": "",
-            "productName": "",
+            "productName": "credito auto",
             "productCode": "",
             "contractID": "",
-            "quantity": "",
-            "amount": "",
-            "paymentAmount": "",
-            "numberOfPayments": "",
+            "quantity": "250000",
+            "amount": "175000",
+            "paymentAmount": "2916",
+            "numberOfPayments": "60",
             "paymentDate": "",
-            "paymentType": "",
-            "serviceCharge": "",
-            "currency": "",
+            "paymentType": "mensual",
+            "serviceCharge": "0",
+            "currency": "MXN",
             "numberOfHolders": "",
-            "term": "",
+            "term": "1800",
             "group": "",
             "state": "",
             "interestRate": {
-                "tin": "",
-                "tae": "",
-                "rate": "",
+                    "tin": "",
+                    "tae": "13.8",
+                    "rate": "12.99",
             },
-        }],
-        "productPortfolio": []
+            }],
+            "productPortfolio": []
     },
     "user": {
-        "device": {
+            "device": {
             "root": "",
             "mobile": "",
             "userAgent": "",
@@ -158,63 +158,63 @@ window.digitalData = {
             "advertisingID": "",
             "usabilityMethod": "",
             "push": {
-                "agreement": "",
-                "deactivationPlace": ""
+                    "agreement": "",
+                    "deactivationPlace": ""
             },
             "biometry": {
-                "agreement": "",
-                "deactivationPlace": ""
+                    "agreement": "",
+                    "deactivationPlace": ""
             }
-        },
-        "consent": {
+            },
+            "consent": {
             "advertising": "",
             "analytics": "",
             "optimization": "",
             "version": "",
             "technique": ""
-        },
-        "IDs": [{
+            },
+            "IDs": [{
             "platformCode": "google",
             "prospectID": "",
             "profileID": "VVVV44444",
             "userID": ""
-        }],
-        "segment": {
+            }],
+            "segment": {
             "profile": "",
             "global": "",
             "collectiveID": "",
             "digitalizationLevel": ""
-        },
-        "userScoring": "",
-        "e": "",
-        "p": "",
-        "gClientID": "",
-        "previousSessionID": "",
-        "age": "",
-        "civilStatus": "",
-        "country": "",
-        "educationLevel": "",
-        "gender": "",
-        "jobType": "",
-        "state": "",
-        "userState": "no logado"
+            },
+            "userScoring": "",
+            "e": "",
+            "p": "",
+            "gClientID": "",
+            "previousSessionID": "",
+            "age": "",
+            "civilStatus": "",
+            "country": "",
+            "educationLevel": "",
+            "gender": "",
+            "jobType": "",
+            "state": "",
+            "userState": "no logado"
     },
     "activationTools": {
-        "adobeAnalytics": "",
-        "googleAnalytics": "",
-        "meta": "",
-        "googleAds": "",
-        "adServer": "",
-        "mobileAttribution": "",
-        "feedback": ""
+            "adobeAnalytics": "",
+            "googleAnalytics": "",
+            "meta": "",
+            "googleAds": "",
+            "adServer": "",
+            "mobileAttribution": "",
+            "feedback": ""
     },
     "moduloAutos": {
-        "userInfo": {
+            "userInfo": {
             "userID": "", //eVar
             "isBuyer": "",
             "isSeller": "", //eVarX: isBuyer/isSeller/ambos (valores booleanos cerrados: si/no)
-        },
-        "vehicle:": { //solo se informa uno por carga de pagina -> s.product
+            },
+            "vehicle:": { //solo se informa uno por carga de pagina -> s.product
             "id": "",
             "sku": "",
             "brand": "",
@@ -238,8 +238,8 @@ window.digitalData = {
             "seatType": "",
             "sellerID": "",
             "km": ""
-        },
-        "productList": {
+            },
+            "productList": {
             "searchResults": [{ //eventos mapeados como merchant event
                     "id": "",
                     "sku": "",
@@ -266,8 +266,8 @@ window.digitalData = {
                     "rimSize": "",
                     "seatType": "",
                     "sellerID": ""
-                },
-                {
+                    },
+                    {
                     "id": "",
                     "sku": "",
                     "brand": "",
@@ -293,7 +293,7 @@ window.digitalData = {
                     "rimSize": "",
                     "seatType": "",
                     "sellerID": ""
-                }
+                    }
             ],
             "favorites": [{
                     "id": "",
@@ -321,8 +321,8 @@ window.digitalData = {
                     "rimSize": "",
                     "seatType": "",
                     "sellerID": ""
-                },
-                {
+                    },
+                    {
                     "id": "",
                     "sku": "",
                     "brand": "",
@@ -348,7 +348,7 @@ window.digitalData = {
                     "rimSize": "",
                     "seatType": "",
                     "sellerID": ""
-                }
+                    }
             ],
             "mostVisited": [{
                     "id": "",
@@ -376,8 +376,8 @@ window.digitalData = {
                     "rimSize": "",
                     "seatType": "",
                     "sellerID": ""
-                },
-                {
+                    },
+                    {
                     "id": "",
                     "sku": "",
                     "brand": "",
@@ -403,7 +403,7 @@ window.digitalData = {
                     "rimSize": "",
                     "seatType": "",
                     "sellerID": ""
-                }
+                    }
             ],
             "recentlyAdded": [{
                     "id": "",
@@ -431,8 +431,8 @@ window.digitalData = {
                     "rimSize": "",
                     "seatType": "",
                     "sellerID": ""
-                },
-                {
+                    },
+                    {
                     "id": "",
                     "sku": "",
                     "brand": "",
@@ -458,34 +458,34 @@ window.digitalData = {
                     "rimSize": "",
                     "seatType": "",
                     "sellerID": ""
-                }
+                    }
             ]
-        },
-        "pageActivity": {
+            },
+            "pageActivity": {
             "origin": {
-                "listID": "", // evar y prop
-                "position": "" // eVar y prop
+                    "listID": "", // evar y prop
+                    "position": "" // eVar y prop
             },
             "searchAdvanced": {
-                "brand": {}, // list prop
-                "model": {}, // list prop
-                "year": {}, // list prop
-                "color": {}, // list prop
-                "frontKm": "", // prop
-                "frontPrice": "", // prop
-                "transmission": {}, // list prop
-                "location": {}, // list prop
-                "verified": "", // prop
-                "reserved": "", // prop
-                "owners": {}, // list prop
-                "type": {}, // list prop
-                "passengers": {}, //list prop
-                "toKm": "", // prop
-                "toPrice": "", // prop
-                "order": "", // prop
-                "pagination": "", // prop
-                "showroom": {} // list prop
+                    "brand": {}, // list prop
+                    "model": {}, // list prop
+                    "year": {}, // list prop
+                    "color": {}, // list prop
+                    "frontKm": "", // prop
+                    "frontPrice": "", // prop
+                    "transmission": {}, // list prop
+                    "location": {}, // list prop
+                    "verified": "", // prop
+                    "reserved": "", // prop
+                    "owners": {}, // list prop
+                    "type": {}, // list prop
+                    "passengers": {}, //list prop
+                    "toKm": "", // prop
+                    "toPrice": "", // prop
+                    "order": "", // prop
+                    "pagination": "", // prop
+                    "showroom": {} // list prop
             }
-        }
+            }
     }
-};
+    };
