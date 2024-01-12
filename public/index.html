@@ -26,7 +26,10 @@
     -->
     <title>React App</title>
 
-    <script src="adobe-client-data-layer.min.js" async defer></script>
+    <!--<script src="adobe-client-data-layer.min.js" async defer></script>-->
+
+    <script src="https://unpkg.com/@adobe/adobe-client-data-layer@2.0.1/dist/adobe-client-data-layer.min.js" async defer></script>
+    
     <!--script de Adobe Launch-->
     <script src=https://assets.adobedtm.com/95c3e405673d/5acdb719c09f/launch-c5bae3fda61d-development.min.js async></script>
     <!--/script de Adobe Launch-->
@@ -36,8 +39,19 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <script>
-      window.digitalData = window.digitalData || [];
-      window.digitalData.push({
+      window.adobeDataLayer = window.adobeDataLayer || [];
+      var myHandler = function(event) {
+        console.log(event);
+      };
+      window.adobeDataLayer.push(function(dl) {
+          dl.addEventListener(
+              "adobeDataLayer:change", 
+              myHandler
+          );
+      });
+
+
+      window.adobeDataLayer.push({
         "versionDL": "20230830_4.2",
                 "application": {
                         "application": {
@@ -528,6 +542,15 @@
                         }
                 }
       });
+
+      window.adobeDataLayer = window.adobeDataLayer || [];
+window.adobeDataLayer.push(function(dl) {
+    var state = dl.getState();
+    console.log("hola state: ");
+
+    console.log(state);
+});
+
   </script>
     <!--
       This HTML file is a template.
@@ -540,7 +563,7 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script>
-      window.digitalData.push({"event": "Page View"});
+      window.adobeDataLayer.push({"event": "Page View"});
     </script>
     
   </body>

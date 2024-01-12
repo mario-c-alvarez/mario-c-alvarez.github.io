@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   const apponclick= () => {
-    window.digitalData.push({ "event": "App On Click Start" });
+    window.adobeDataLayer.push({ "event": "App On Click Start" });
   }
   return (
     <div className="App">
